@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "ECommerce\\Controllers\\": "http/controllers/",
+            "ECommerce\\API\\": "http/api/",
+            "ECommerce\\CLI\\": "cli/",
+            "ECommerce\\": "src/",
+            
+            "System\\": "../php-light-framework/src/"
+        }
+    },
+    "require" : {
+        "php" : "^7.0"
+    }
+}
