@@ -1,0 +1,63 @@
+.title
+{
+    h1
+    {
+        font-family: sans-serif;
+    }
+    a
+    {
+        text-decoration: underline;
+        color: $title-link-color;
+    }
+    a:hover,
+    a:focus
+    {
+        text-decoration: underline;
+        color: $title-link-hover-color;
+    }
+}
+.section
+{
+    h1
+    {
+        font-family: sans-serif;
+    }
+    a
+    {
+        text-decoration: underline;
+        color: $section-link-color;
+    }
+    a:hover,
+    a:focus
+    {
+        text-decoration: underline;
+        color: $section-link-hover-color;
+    }
+}
+.section-alt
+{
+    h1
+    {
+        font-family: sans-serif;
+    }
+    a
+    {
+        text-decoration: underline;
+        color: $section-alt-link-color;
+    }
+    a:hover,
+    a:focus
+    {
+        text-decoration: underline;
+        color: $section-alt-link-hover-color;
+    }
+}
+a.clean-link
+{
+    text-decoration: none;
+}
+a.clean-link:hover,
+a.clean-link:focus
+{
+    text-decoration: none;
+}
